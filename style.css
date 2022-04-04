@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: hsl(24deg 85% 85%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center!important;
+    color: white;
+}
+
+a {
+    color: hsl(298deg 17% 54%);
+    text-decoration: underline;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.background-image {
+    background-image: url(./images/bg.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.login-form {
+    position: relative;
+    background-color: hsl(233deg 96% 10%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.login-form p {
+    color: hsl(236deg 13% 45%);
+}
+
+.fr-1 {
+    text-align: right;
+}
+
+.form-group {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.fr-2 {
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: hsl(308deg 24% 63%);
+    border-color: hsl(308deg 24% 63%);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
